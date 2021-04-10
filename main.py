@@ -18,7 +18,7 @@ class checkTest(unittest.TestCase):
         self.driver.get(stuff.path) # Openening the website
         self.driver.implicitly_wait(10) # Waiting Time
 
-        print("Home Page {")
+        print(".Home Page {")
         self.driver.find_element_by_id(home.image_id)
         print("   Element 1 ✅")
         self.driver.find_element_by_id(home.para_id)
