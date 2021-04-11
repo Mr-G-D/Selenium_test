@@ -67,7 +67,7 @@ class checkTest(unittest.TestCase):
 
 
     def test_partners(self):
-        print("Partners Page {")
+        print("Corporate Partners Page {")
         self.driver.find_element_by_link_text(about.button1).click()
         self.driver.find_element_by_link_text(Partners.button2).click()
         print("   Element 3 "+ stuff.icon)
