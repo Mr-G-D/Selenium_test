@@ -8,11 +8,11 @@ class about():
 
     button1 = "About Us"
 
-    member1 = ".single-middle"
+    member_image = ".profile-img"
 
-    scholarship_director_id = "comp-jmgutiyn"
+    member_details = ".media-body"
 
-    main_id = "PAGES_CONTAINER"
+    nav = ".w3l-blog-list"
 
 class home():
 

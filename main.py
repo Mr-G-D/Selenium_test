@@ -31,13 +31,13 @@ class checkTest(unittest.TestCase):
         self.driver.find_element_by_link_text(about.button1).click()
         self.driver.find_element_by_link_text(about.button2).click()
         print("   Element 7 ✅")
-        self.driver.find_element_by_css_selector(about.member1)
+        self.driver.find_element_by_css_selector(about.member_image)
         print("   Element 8 ✅")
-    #     self.driver.find_element_by_id(team.scholarship_director_id)
-    #     print("   Element 9 ✅")
-    #     self.driver.find_element_by_id(team.main_id)
-    #     print("   Element 10 ✅")
-    #     print("}")
+        self.driver.find_element_by_css_selector(about.member_details)
+        print("   Element 9 ✅")
+        self.driver.find_element_by_css_selector(about.nav)
+        print("   Element 10 ✅")
+        print("}")
 
 
     # def test_programs(self):
