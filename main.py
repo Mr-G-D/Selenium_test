@@ -30,13 +30,13 @@ class checkTest(unittest.TestCase):
         print("Executive Team Page { ")
         self.driver.find_element_by_link_text(about.button1).click()
         self.driver.find_element_by_link_text(about.button2).click()
-        print("   Element 8 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(about.member_image)
         print("   Element 9 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(about.member_details)
+        self.driver.find_element_by_css_selector(about.member_image)
         print("   Element 10 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(about.nav)
+        self.driver.find_element_by_css_selector(about.member_details)
         print("   Element 11 "+ stuff.icon)
+        self.driver.find_element_by_css_selector(about.nav)
+        print("   Element 12 "+ stuff.icon)
         print("}")
 
 
@@ -45,11 +45,11 @@ class checkTest(unittest.TestCase):
         print("Student Mentorship Program Page {")
         self.driver.find_element_by_link_text(programs.button1).click()
         self.driver.find_element_by_link_text(programs.button2).click()
-        print("   Element 5 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(programs.mentorship_program)
         print("   Element 6 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(programs.methods)
+        self.driver.find_element_by_css_selector(programs.mentorship_program)
         print("   Element 7 "+ stuff.icon)
+        self.driver.find_element_by_css_selector(programs.methods)
+        print("   Element 8 "+ stuff.icon)
         print("}")
 
 
@@ -58,11 +58,11 @@ class checkTest(unittest.TestCase):
         print("Events Volunteer Page {")
         self.driver.find_element_by_link_text(Volunteers.button1).click()
         self.driver.find_element_by_link_text(Volunteers.button2).click()
-        print("   Element 11 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(Volunteers.body)
-        print("   Element 12 "+ stuff.icon)
-        self.driver.find_element_by_css_selector(Volunteers.form)
         print("   Element 13 "+ stuff.icon)
+        self.driver.find_element_by_css_selector(Volunteers.body)
+        print("   Element 14 "+ stuff.icon)
+        self.driver.find_element_by_css_selector(Volunteers.form)
+        print("   Element 15 "+ stuff.icon)
         print("}")
 
 
