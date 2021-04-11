@@ -22,9 +22,13 @@ class home():
 
 class programs():
 
-    button_id = "comp-jh9s4wrs3"
+    button1 = "Programs"
 
-    cover_id = "img_comp-jtz0fyin"
+    button2 = "Student Mentorship Program"
+
+    mentorship_program = ".single-middle"
+
+    methods = ".container"
 
 class Volunteers():
 

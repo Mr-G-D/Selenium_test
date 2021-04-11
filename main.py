@@ -40,14 +40,16 @@ class checkTest(unittest.TestCase):
         print("}")
 
 
-    # def test_programs(self):
+    def test_programs(self):
         
-    #     print("Programs Page {")
-    #     self.driver.find_element_by_id(programs.button_id).click()
-    #     print("   Element 5 ✅")
-    #     self.driver.find_element_by_id(programs.cover_id)
-    #     print("   Element 6 ✅")
-    #     print("}")
+        print("Programs Page {")
+        self.driver.find_element_by_link_text(programs.button1).click()
+        self.driver.find_element_by_link_text(programs.button2).click()
+        print("   Element 5 ✅")
+        self.driver.find_element_by_css_selector(programs.mentorship_program)
+        print("   Element 6 ✅")
+        self.driver.find_element_by_css_selector(programs.methods)
+        print("}")
 
 
     # def test_volunteer(self):
