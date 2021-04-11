@@ -1,13 +1,14 @@
 class stuff:
 
-    path = "https://www.thesparksfoundation.org/"
+    path = "https://www.thesparksfoundationsingapore.org/"
 
+class about():
 
-class team():
+    button2 = "Executive Team"
 
-    button_id = "comp-jh9s4wrs1"
+    button1 = "About Us"
 
-    director_id = "img_comp-jmgutizu"
+    member1 = ".single-middle"
 
     scholarship_director_id = "comp-jmgutiyn"
 
@@ -15,9 +16,9 @@ class team():
 
 class home():
 
-    image_id = "comp-jigkj227"
+    video_id = "youtube-video"
 
-    para_id = "comp-jiut4iei1"
+    para_class = ".para-w3-agile"
 
 class programs():
 
