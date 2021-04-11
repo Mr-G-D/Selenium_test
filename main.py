@@ -9,14 +9,14 @@ class checkTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
 
-        cls.driver = webdriver.Chrome(executable_path="D:/sparksFoundation/driver/chromedriver.exe") # Opening th Chrome driver
+        cls.driver = webdriver.Chrome(executable_path="D:/sparksFoundation/driver/chromedriver.exe") # Chrome driver path
         cls.driver.maximize_window()
 
 
     def test_home(self):
 
-        self.driver.get(stuff.path) # Openening the website
-        self.driver.implicitly_wait(10) # Waiting Time
+        self.driver.get(stuff.path) # sparksfoundation.org
+        self.driver.implicitly_wait(10) # 10 ms
 
         print(".Home Page {")
         self.driver.find_element_by_id(home.image_id)
