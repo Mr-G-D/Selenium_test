@@ -32,9 +32,13 @@ class programs():
 
 class Volunteers():
 
-    button_id = "comp-jh9s4wrs2"
+    button1 = "Join Us"
 
-    image_class = "._2S9ms"
+    button2 = "Events Volunteer"
+
+    body = ".blog-w3ls"
+
+    form = ".form-bg-w3ls"
 
 class Partners():
 

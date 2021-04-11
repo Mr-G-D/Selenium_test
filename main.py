@@ -27,7 +27,7 @@ class checkTest(unittest.TestCase):
         
 
     def test_team(self):
-        print("Team Page { ")
+        print("Executive Team Page { ")
         self.driver.find_element_by_link_text(about.button1).click()
         self.driver.find_element_by_link_text(about.button2).click()
         print("   Element 7 ✅")
@@ -42,7 +42,7 @@ class checkTest(unittest.TestCase):
 
     def test_programs(self):
         
-        print("Programs Page {")
+        print("Student Mentorship Program Page {")
         self.driver.find_element_by_link_text(programs.button1).click()
         self.driver.find_element_by_link_text(programs.button2).click()
         print("   Element 5 ✅")
@@ -52,14 +52,16 @@ class checkTest(unittest.TestCase):
         print("}")
 
 
-    # def test_volunteer(self):
+    def test_volunteer(self):
 
-    #     print("Volunteers Page {")
-    #     self.driver.find_element_by_id(Volunteers.button_id).click()
-    #     print("   Element 11 ✅")
-    #     self.driver.find_element_by_css_selector(Volunteers.image_class)
-    #     print("   Element 12 ✅")
-    #     print("}")
+        print("Events Volunteer Page {")
+        self.driver.find_element_by_link_text(Volunteers.button1).click()
+        self.driver.find_element_by_link_text(Volunteers.button2).click()
+        print("   Element 11 ✅")
+        self.driver.find_element_by_css_selector(Volunteers.body)
+        print("   Element 12 ✅")
+        self.driver.find_element_by_css_selector(Volunteers.form)
+        print("}")
 
 
     # def test_partners(self):
