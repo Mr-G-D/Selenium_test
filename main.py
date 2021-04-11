@@ -20,9 +20,9 @@ class checkTest(unittest.TestCase):
 
         print(".Home Page {")
         self.driver.find_element_by_id(home.video_id)
-        print("   Element 1 ✅")
+        print("   Element 1 "+ stuff.icon)
         self.driver.find_element_by_css_selector(home.para_class)
-        print("   Element 2 ✅")
+        print("   Element 2 "+ stuff.icon)
         print("}")
         
 
@@ -30,13 +30,13 @@ class checkTest(unittest.TestCase):
         print("Executive Team Page { ")
         self.driver.find_element_by_link_text(about.button1).click()
         self.driver.find_element_by_link_text(about.button2).click()
-        print("   Element 7 ✅")
+        print("   Element 8 "+ stuff.icon)
         self.driver.find_element_by_css_selector(about.member_image)
-        print("   Element 8 ✅")
+        print("   Element 9 "+ stuff.icon)
         self.driver.find_element_by_css_selector(about.member_details)
-        print("   Element 9 ✅")
+        print("   Element 10 "+ stuff.icon)
         self.driver.find_element_by_css_selector(about.nav)
-        print("   Element 10 ✅")
+        print("   Element 11 "+ stuff.icon)
         print("}")
 
 
@@ -45,10 +45,11 @@ class checkTest(unittest.TestCase):
         print("Student Mentorship Program Page {")
         self.driver.find_element_by_link_text(programs.button1).click()
         self.driver.find_element_by_link_text(programs.button2).click()
-        print("   Element 5 ✅")
+        print("   Element 5 "+ stuff.icon)
         self.driver.find_element_by_css_selector(programs.mentorship_program)
-        print("   Element 6 ✅")
+        print("   Element 6 "+ stuff.icon)
         self.driver.find_element_by_css_selector(programs.methods)
+        print("   Element 7 "+ stuff.icon)
         print("}")
 
 
@@ -57,20 +58,24 @@ class checkTest(unittest.TestCase):
         print("Events Volunteer Page {")
         self.driver.find_element_by_link_text(Volunteers.button1).click()
         self.driver.find_element_by_link_text(Volunteers.button2).click()
-        print("   Element 11 ✅")
+        print("   Element 11 "+ stuff.icon)
         self.driver.find_element_by_css_selector(Volunteers.body)
-        print("   Element 12 ✅")
+        print("   Element 12 "+ stuff.icon)
         self.driver.find_element_by_css_selector(Volunteers.form)
+        print("   Element 13 "+ stuff.icon)
         print("}")
 
 
-    # def test_partners(self):
-    #     print("Partners Page {")
-    #     self.driver.find_element_by_id(Partners.button_id).click()
-    #     print("   Element 3 ✅")
-    #     self.driver.find_element_by_id(Partners.image_id)
-    #     print("   Element 4 ✅")
-    #     print("}")
+    def test_partners(self):
+        print("Partners Page {")
+        self.driver.find_element_by_link_text(about.button1).click()
+        self.driver.find_element_by_link_text(Partners.button2).click()
+        print("   Element 3 "+ stuff.icon)
+        self.driver.find_element_by_css_selector(Partners.body)
+        print("   Element 4 "+ stuff.icon)
+        self.driver.find_element_by_css_selector(Partners.nav)
+        print("   Element 5 "+ stuff.icon)
+        print("}")
 
 
     @classmethod

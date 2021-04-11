@@ -2,6 +2,8 @@ class stuff:
 
     path = "https://www.thesparksfoundationsingapore.org/"
 
+    icon = "✅"
+
 class about():
 
     button2 = "Executive Team"
@@ -42,6 +44,8 @@ class Volunteers():
 
 class Partners():
 
-    button_id = "comp-jh9s4wrs4"
+    button2 = "Corporate Partners"
 
-    image_id = "comp-jiut7b9g1"
+    nav = ".w3l-blog-list"
+
+    body = ".blog-w3ls"
